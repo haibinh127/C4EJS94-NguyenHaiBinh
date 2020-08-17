@@ -7,7 +7,7 @@ if (n > 1) {
         for (var i = 1; i <= n; i++) {
             fd(m)
             rt(360 / n)
-            for (p = Number(x)-=1; p < n;p++) {
+            for (p = Number(x)-=1; p < n;p) {
                 fd(m)
                 rt(360 /p)
             }
