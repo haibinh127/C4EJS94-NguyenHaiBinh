@@ -1,4 +1,4 @@
-let a = {
+var jobData = {
     hits: [
         {
             benefits: [
@@ -929,11 +929,44 @@ let a = {
         }
     ]
 }
-console.log(a);
-console.log("What is the data type of the outermost layer");
-console.log("the outermost layer has variable name is 'a'(i assigned it) and it is object and just has one property is hits");
-console.log("The hits property is where the job results are stored,");
-console.log("hits is array and it stores object");
-console.log("In each hit of hits, how to find the job’s title, locations, salary, benefits,\
-skills and requirements");
-console.log("we can find all of these in object benifits stored by hits");
+console.log("Get all the job hits");
+console.log(jobData);
+console.log("--------------------------------------------------");
+console.log("Get the first job hit")
+console.log(jobData.hits[0]);
+console.log("--------------------------------------------------");
+console.log("Get jobTitle of the first job");
+console.log(jobData.hits[0].jobTitle);
+console.log("--------------------------------------------------");
+console.log("Get the benefits of the first job hit");
+console.log(jobData.hits[0].benefits);
+console.log("--------------------------------------------------");
+console.log("first job hit benefit values: ");
+for (let m = 0; m < jobData.hits[0].benefits.length; m++) {
+    console.log("-" +jobData.hits[0].benefits[m].benefitValue); 
+}
+console.log("--------------------------------------------------");
+console.log("Log out jobTitle and benefitValue of all job hits")
+for (let i = 0; i < jobData.hits.length; i++) {
+    console.log(jobData.hits[i].jobTitle);
+    console.log(" benefit : ");
+    for (let m = 0; m < jobData.hits[i].benefits.length; m++) {
+        console.log("-" + jobData.hits[i].benefits[m].benefitValue); 
+    }  
+    console.log("-----------");
+}
+console.log("--------------------------------------------------");
+console.log("Log out jobTitle, locations, skills, jobSalary of all job hits");
+for (let i = 0; i < jobData.hits.length; i++) {
+    console.log(jobData.hits[i].jobTitle);
+    console.log("Location:");
+    for (let k = 0; k < jobData.hits[i].locations.length; k++) {
+        console.log("-" + jobData.hits[i].locations[k]);
+    }
+    console.log(" benefit : ");
+    for (let j = 0; j < jobData.hits[i].skills.length; j++) {
+        console.log("-" +jobData.hits[i].skills[j]); 
+    }  
+    console.log(jobData.hits[i].jobSalary)
+    console.log("-----------");
+}
