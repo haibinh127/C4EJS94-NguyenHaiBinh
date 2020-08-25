@@ -15,7 +15,6 @@ D: Delete an item ")));
         for (i = 0; i < items.length; i++) {
             console.log(`${i + 1}` + "." + items[i]);
         }
-        break;
     }
     else if (String(x) == String(B)) {
         z = prompt('Enter the name of the new item');
