@@ -35,7 +35,7 @@ var questions = [
 var score = 0;
 for (var i = 0; i < questions.length; i++) {
     respone = Number(prompt(questions[i].question))
-    if (respone = questions[i].rightChoice) {
+    if (respone == questions[i].rightChoice) {
         score++;
     };
 }
