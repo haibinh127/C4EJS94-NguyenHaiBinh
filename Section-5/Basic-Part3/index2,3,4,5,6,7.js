@@ -1,19 +1,16 @@
 let inventorybyBrand = {
-    asus: [
-        {
+    asus: [{
 
-            name: 'Asus Zenbook',
+        name: 'Asus Zenbook',
 
-            brand: 'Asus',
+        brand: 'Asus',
 
-            price: 20000,
+        price: 20000,
 
-            quantity: 4,
+        quantity: 4,
 
-        }
-    ],
-    dell: [
-        {
+    }],
+    dell: [{
 
             name: 'Dell XPS 9370',
 
@@ -46,8 +43,7 @@ let inventorybyBrand = {
 
         },
     ],
-    hp: [
-        {
+    hp: [{
 
             name: 'HP Envy 13aq',
 
