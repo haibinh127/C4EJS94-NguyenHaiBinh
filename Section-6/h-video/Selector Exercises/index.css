@@ -1,0 +1,25 @@
+p {
+    color:red;
+}
+#Number2{
+    background-color:#00FF00 ;
+}
+#Number1{
+    font-size: 24px;
+}
+h2{
+    font-size:24px;
+}
+div>a {
+    color:yellow;
+}
+ul>li{
+    color:red;
+    font-weight:bold;
+}
+.item {
+    font-size:18px
+}
+.item div>span{
+    font-style: italic;
+}
