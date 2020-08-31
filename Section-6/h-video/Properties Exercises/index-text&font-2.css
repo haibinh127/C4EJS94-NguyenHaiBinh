@@ -1,0 +1,10 @@
+a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background:wheat;
+    /* Insert code below */
+    text-align: center;
+    line-height: 600%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
