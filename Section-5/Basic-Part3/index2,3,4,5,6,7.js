@@ -1,5 +1,5 @@
-let inventorybyBrand = {
-    asus: [{
+let inventorybyBrand = [
+    asus = [{
 
         name: 'Asus Zenbook',
 
@@ -10,63 +10,63 @@ let inventorybyBrand = {
         quantity: 4,
 
     }],
-    dell: [{
+    dell = [{
 
-            name: 'Dell XPS 9370',
+        name: 'Dell XPS 9370',
 
-            price: 30000,
+        price: 30000,
 
-            brand: 'Dell',
+        brand: 'Dell',
 
-            quantity: 1,
+        quantity: 1,
 
-        },
-        {
+    },
+    {
 
-            name: 'Dell Inspiron 3567',
+        name: 'Dell Inspiron 3567',
 
-            price: 9300,
+        price: 9300,
 
-            brand: 'Dell',
+        brand: 'Dell',
 
-            quantity: 12,
+        quantity: 12,
 
-        },
-        {
-            name: 'Dell Latitude E5450',
+    },
+    {
+        name: 'Dell Latitude E5450',
 
-            price: 8600,
+        price: 8600,
 
-            brand: 'Dell',
+        brand: 'Dell',
 
-            quantity: 2,
+        quantity: 2,
 
-        },
+    },
     ],
-    hp: [{
+    hp = [{
 
-            name: 'HP Envy 13aq',
+        name: 'HP Envy 13aq',
 
-            price: 21000,
+        price: 21000,
 
-            brand: 'HP',
+        brand: 'HP',
 
-            quantity: 5,
+        quantity: 5,
 
-        },
-        {
+    },
+    {
 
-            name: 'HP Pavilion',
+        name: 'HP Pavilion',
 
-            brand: 'HP',
+        brand: 'HP',
 
-            price: 14000,
+        price: 14000,
 
-            quantity: 7,
+        quantity: 7,
 
-        }
+    }
     ]
-};
+];
 console.log(inventorybyBrand);
 x = prompt("Which brand ?")
 if (x == "dell") {
