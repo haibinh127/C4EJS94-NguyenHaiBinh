@@ -1,0 +1,12 @@
+body{
+    background-color: cyan;
+}
+#main {
+    text-align: center;
+}
+#timeleft{
+    font-size: 250px;
+    text-align: center ;
+    font-weight: bold;
+    margin-top: 50px;
+}

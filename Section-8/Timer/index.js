@@ -14,5 +14,5 @@ function countDown() {
     }, 1000)
 }
 start.addEventListener("click", countDown);
-
+stop1.addEventListener("click",clearInterval(countDown));
   
