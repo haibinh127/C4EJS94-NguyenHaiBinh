@@ -1,0 +1,39 @@
+body {
+    background-color: skyblue;
+    margin-top: 100px;
+    text-align: center;
+} 
+#math1 {
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+}
+#math2 {
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+}
+#r {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    border-width: 5px;
+    border-color:  rgb(7, 9, 97);
+    height: 100px;
+    width: 100px;
+}
+#wr {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    border-width: 5px;
+    border-color:  rgb(7, 9, 97);
+    height: 100px;
+    width: 100px;
+}
+#tick {
+    justify-content:center ;
+}
