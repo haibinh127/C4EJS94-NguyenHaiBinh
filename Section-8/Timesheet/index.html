@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <input id="ip1" type="text" placeholder="Enter project">
+        <input id="ip2" type="text" placeholder="Enter task">
+        <input id="ip3" type="text" placeholder="Time spent">
+        <button id="btn">Add</button>
+    </div>
+    <br>
+    <table id="table">
+
+        <thead>
+            <th>Project</th>
+            <th>Task</th>
+            <th>Time spent</th>
+            <th>Actions</th>
+        </thead>
+        <tbody id="ts_tbody">
+
+            <tr>
+                <td>Learn Front-end</td>
+                <td>Learn HTML</td>
+                <td>6</td>
+                <td><input type="button" value="Delete" onclick="deleteRow(this)"> <input type="button" value="Update" onclick="updateRow"></td>
+            </tr>
+            <tr>
+                <td>Learn Front-end</td>
+                <td>Learn CSS</td>
+                <td>8</td>
+                <td><input type="button" value="Delete" onclick="deleteRow(this)"> <input type="button" value="Update" onclick="updateRow"></td>
+            </tr>
+            <tr>
+                <td>Learn Front-end</td>
+                <td>Learn JS Variables and Data Types</td>
+                <td>6</td>
+                <td><input type="button" value="Delete" onclick="deleteRow(this)"> <input type="button" value="Update" onclick="updateRow"></td>
+            </tr>
+            <tr>
+                <td>Learn Git</td>
+                <td>Learn Git Basics</td>
+                <td>2</td>
+                <td><input type="button" value="Delete" onclick="deleteRow(this)"> <input type="button" value="Update" onclick="updateRow"></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
